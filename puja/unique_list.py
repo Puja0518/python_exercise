@@ -9,7 +9,22 @@ def unq_dupl_list(list1):
             dup.append(itm)
         if c == 1:
             unq.append(itm)
+    # print(f" duplicate items : {dup}")
+    # print(f" unique items : {unq}")
+
+unq_dupl_list(list1)
+
+# optimal solution
+
+def unique_duplicate_list(list1):
+    dup = []
+    unq = []
+    for itm in list1:
+        if itm not in unq:
+            unq.append(itm)
+        else:
+            dup.append(itm)
     print(f" duplicate items : {dup}")
     print(f" unique items : {unq}")
 
-unq_dupl_list(list1)
+unique_duplicate_list(list1)
