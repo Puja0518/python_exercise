@@ -1,3 +1,4 @@
+# Given a list of numbers, find the sub array of given sum
 # original
 num = [1,4,6,7,2,8]
 sum = 6

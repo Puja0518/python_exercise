@@ -1,3 +1,4 @@
+# Given list of 10 item , find the reverse of list
 import random
 def random_generator():
     list_of_random = []

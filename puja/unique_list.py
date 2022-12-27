@@ -1,3 +1,4 @@
+# find the unique and duplicate items in list
 list1 = [1, 3, 8, 4, 3, 2, 4, 8, 9, 6, 7]
 
 def unq_dupl_list(list1):
