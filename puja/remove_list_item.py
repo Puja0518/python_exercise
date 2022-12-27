@@ -1,3 +1,4 @@
+# remove an element from the list
 list1 = [1, 2, 5, 8, 3, 6]
 t = 5
 

@@ -1,3 +1,4 @@
+# Generate 10 random list, print the 5th item of the lists of all
 import random
 def random_generator():
     random_1 = []
@@ -24,7 +25,7 @@ def random_generator():
         random_10.append(x)
     return random_1, random_2, random_3, random_4, random_5, random_6, random_7, random_8, random_9, random_10
 xx = random_generator()
-print(xx)
+# print(xx)
 
 
 def generate_list(size):
@@ -35,6 +36,8 @@ def generate_list(size):
     return tmp
 
 for i in range(10):
-    x = random.randint(5, 15)
+    # x = random.randint(5,11)
+    # ==== fixed length of list is 10
+    x = 10
     tmp = generate_list(x)
-    print(f"list {i} - {tmp}")
+    print(f"list {i} - {tmp} - 5th item {tmp[4]}")

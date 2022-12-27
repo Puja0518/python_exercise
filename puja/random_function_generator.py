@@ -1,3 +1,4 @@
+# Generate random number in a list using function
 import random
 def random_generator(n):
     list_of_random = []
